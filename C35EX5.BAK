@@ -1,0 +1,24 @@
+#include<iostream.h>;
+#include<conio.h>;
+void main()
+{
+	clrscr();
+	int a;
+	cout<<"\nEnter Denary Number : ";
+	cin>>a;
+	int arr[4];
+	int i = 0 ;
+		while( a != 1 || a != 0){
+			int r =  a  %  2;
+			a /= 2;
+			arr[i] = r;
+			i++;
+		 }
+	       //	 int arrSize = sizeof(arr) / sizeof(arr[0]);
+		 for(int j = 0 ; j < 4; j++){
+		  int z = arr[4 - j - 1];
+		  cout<<z;
+		 }
+
+	getch();
+}
