@@ -5,7 +5,7 @@ void main()
 {
 	clrscr();
 	char key = 'Y';
-	char array[] = {'H','O','W',' ','A','R','E',' ','Y','O','U'};
+	char array[] = "HOW ARE YOU";
 	int arraySize = sizeof(array) / sizeof(array[0]);
 	int index;
 
